@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/style.css">
+    <link href="./static/lock.ico" rel="icon">
+    <title>aex-Z Password-Checker</title>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <a href="./index.html">Home</a>
+                <div class="dropdown">
+                  <button class="dropbtn">My portfo
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Comming soon</a>
+                  </div>
+                </div>
+                <div class="logo-container">
+                    <img src="./static/lock.ico" alt="logo"  height="30" width="30">
+                </div>
+                <p class="logo-name">aex-Z</p>
+              </div>
+        </nav>
+        <h3 class="instruction"></h3> <br><br><br>
+    </header>
+        
+
+    <main>
+        <section align="center">
+            <form action="submit_password" method="post">
+                <input name='firstname' id="firstname" type="text" placeholder="First Name" autocomplete="off" required required title="required"><br>
+                <input name='name' type="text" placeholder="Last Name" autocomplete="off" required required title="required"><br>
+                <input name='password' type="password" id="password" placeholder="Password" pattern=".{2,}" required title="password is required" ><br>
+                <button type="submit" class="submit">Check now</button><br>
+            </form>
+        </section>
+    </main>
+</body>
+<footer class="bottomtext"><h4></h4></footer>
+</html>
