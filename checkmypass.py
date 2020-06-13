@@ -29,6 +29,6 @@ def main(passwords):
         if count:
             return (f'Be Careful! "{passwords}" was goten haked before {count} times!!!\n You should change it now.')
         else:
-            return (f'😃Congragulations "{passwords}" was not found before.\n you can keep you password.')
-        return 
+            return (f'😃Congragulations "{passwords}" was not found before.\n you can keep your password.')
+        return
 

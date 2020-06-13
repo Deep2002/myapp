@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: courier,arial,helvetica;
   background-image: url('bg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -20,7 +20,7 @@ body{
     float: right;
     margin-top: 15px;
   }
-  
+
   /* Links inside the navbar */
   .navbar a {
     float: left;
@@ -30,13 +30,13 @@ body{
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+
   /* The dropdown container */
   .dropdown {
     float: left;
     overflow: hidden;
   }
-  
+
   /* Dropdown button */
   .dropdown .dropbtn {
     font-size: 16px;
@@ -48,12 +48,12 @@ body{
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
   }
-  
+
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: black;
   }
-  
+
   /* Dropdown content (hidden by default) */
   .dropdown-content {
     display: none;
@@ -63,7 +63,7 @@ body{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  
+
   /* Links inside the dropdown */
   .dropdown-content a {
     float: none;
@@ -73,12 +73,12 @@ body{
     display: block;
     text-align: left;
   }
-  
+
   /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
     background-color: black;
   }
-  
+
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
@@ -89,7 +89,7 @@ body{
   margin-top: 10px;
   margin-right: 10px;
   filter: drop-shadow(2px 3px);
-    
+
   }
 
 .logo-name {
@@ -137,7 +137,7 @@ input {
 
 input:focus, input:hover{
   border-color: yellow;
-  outline: none
+  outline: none;
 }
 
 .instruction {
@@ -171,10 +171,7 @@ h4 {
 
 @media (max-width: 75em){
   .instruction::before{
-      content: "Did your password had hacked before?";
-  }
-  h4::before{
-    content: "aex-Z Password Checker. 🔐";
+      content: "Do you want to see how many times your password got haked before?";
   }
 }
 
@@ -184,10 +181,11 @@ h4 {
 
 textarea {
   resize: none;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: courier,arial,helvetica;
   border-width: medium;
   border-color: tomato;
   font-size: medium;
+  outline:none;
 }
 
 .result_box {
